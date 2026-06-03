@@ -118,5 +118,57 @@
     background-size: cover;
     repeat: no-repeat;
     margin: 0 19.6em;
-    height: 59.2em;
+    height: 55em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0em 3em 4em 5.5em;
+
+    img {
+        width: 15em;
+    }
+
+    h1 {
+        font-family: 'Impact', sans-serif;
+        font-weight: normal;
+        font-size: 5rem;
+        color: #ffffff;
+        margin-top: 0.5em;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: #ffffff;
+        margin-top: 0.5em;
+    }
+
+    button {
+        width: 13em;
+        height: 3.9em;
+        background-color: #FCCA1B;
+        border: none;
+        font-size: 0.8rem;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 2em;
+        margin-top: 3em;
+    }
+
+    .hero-down-arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        margin-right: 2em;
+        background-color: #FCCA1B;
+        color: #000000;
+
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+
+        cursor: pointer;
+    }
 }

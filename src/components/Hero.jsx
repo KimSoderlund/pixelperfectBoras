@@ -5,10 +5,16 @@ function Hero() {
   return (
     <div className="hero-container">
         <div className="hero-content">
-            <h1>Welcome to the Warhammer Store</h1>
-            <p>Discover the latest releases, exclusive offers, and everything you need to bring your Warhammer battles to life.</p>
-            <button>Shop Now</button>
+            <div>
+                <img src="src\assets\images\Warhammer-40k-Logo.png" alt="Warhammer 40k Logo"></img>
+                <h1>ARMAGEDDON:<br></br>COMMING SOON!</h1>
+                <p>Take the leap into the new edition of Warhammer 40,000<br></br> with the Armageddon box. Secure your copy this weekend.</p>
+            <button>SHOW ME MORE</button>
+            </div>
         </div>
+            <div>
+                <div className = "hero-down-arrow">↓</div>
+            </div>
     </div>
   )
 }
