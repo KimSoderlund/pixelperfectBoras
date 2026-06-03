@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import pixelPerfect from '../assets/images/pixel perfect.jpg'
+import pixelPerfect from '../assets/images/pixelperfect.jpg'
 import '../App.scss'
 
 function Overlay() {
