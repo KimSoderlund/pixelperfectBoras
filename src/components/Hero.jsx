@@ -1,9 +1,11 @@
 import React from 'react';
 import '../App.scss';
+import vignette from '../assets/images/vignette.469cac44.png';
 
 function Hero() {
   return (
     <div className="hero-container">
+        <img className="hero-overlay" src={vignette} alt="" aria-hidden="true" />
         <div className="hero-content">
             <div>
                 <img src="src\assets\images\Warhammer-40k-Logo.png" alt="Warhammer 40k Logo"></img>
