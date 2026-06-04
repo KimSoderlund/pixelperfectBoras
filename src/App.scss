@@ -191,3 +191,43 @@
         cursor: pointer;
     }
 }
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4em 21.5em;
+
+    i {
+        font-size: 1.5rem;
+        color:#000000;
+    }
+
+    .card {
+        padding:1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid #cccccc;
+        border-radius: 0.5em;   
+        width: 20em;
+        
+
+        i {
+            
+            padding: 0.3em;
+            border: 1px solid #cccccc;
+            border-radius: 50%;
+            background-color: #dadada;
+
+        }
+
+        p {
+            font-size: 0.75em;
+            font-weight: bold;
+            color: #747474;
+        }
+    }
+}
